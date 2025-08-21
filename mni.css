@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#333;
+}
+.bodytext{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+.brdr{
+	border:#CCC 1px solid;
+}
+a.newcolor:link {
+color: #393;
+text-decoration:none;
+}
+a.newcolor:visited {
+color: #393;
+text-decoration:none;
+}
+a.newcolor:hover {
+color: #F60;
+text-decoration:underline;
+}
+a.newcolor:active {
+color: #393;
+text-decoration:none;
+}
+.dotted{
+	border-top:#666 1px dotted;
+}
+.titletext{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#096;
+}
+/*dropdown css*/
+.dropmenudiv_a{
+position:absolute;
+top: 0;
+border: 0px solid #980E10; /*THEME CHANGE HERE*/
+border-top-width: 8px; /*Top border width. Should match height of .ddcolortabsline above*/
+border-bottom-width: 0;
+font:normal 12px Arial;
+line-height:18px;
+z-index:100;
+background-color: #980E10;
+width: 200px;
+visibility: hidden;
+}
+
+
+.dropmenudiv_a a{
+width: auto;
+display: block;
+text-indent: 5px;
+border-top: 0 solid #FDE8E9;
+border-bottom: 1px solid #FDE8E9; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+color: white;
+}
+.dropmenudiv_a a.sub_bottom{
+width: auto;
+display: block;
+text-indent: 5px;
+border-top: 0 solid #678b3f;
+border-bottom: 0px solid #678b3f; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+color: white;
+background: transparent url(sub_bottom.gif) bottom left no-repeat;
+}
+
+* html .dropmenudiv_a a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv_a a:hover{ /*THEME CHANGE HERE*/
+background-color: #8a3c3d;
+color: white;
+}
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.solidblockmenu{
+
+margin: 0;
+padding: 0;
+float: left;
+font: bold 13px Arial;
+width: auto;
+border: 0px solid #625e00;
+border-width: 0px 0;
+background: transparent url(blockdefault.gif) center center repeat-x;
+}
+
+.solidblockmenu li{
+display: inline;
+}
+
+.solidblockmenu li a{
+float: left;
+color: white;
+padding: 9px 11px;
+text-decoration: none;
+border-right: 1px solid white;
+}
+.solidblockmenu a.left{
+float: left;
+color: white;
+padding: 9px 11px ;
+text-decoration: none;
+border-right: 1px solid white;
+background:url(blockdefault_left.gif)  top left no-repeat;
+}
+
+.solidblockmenu a.right{
+float: left;
+color: white;
+padding: 9px 11px 9px 11px;
+text-decoration: none;
+border-right: 0px solid white;
+background:url(blockdefault_right.gif)  top right no-repeat;
+}
+
+.solidblockmenu li a:visited{
+color: white;
+}
+
+#blockmenu a:hover.left{background: transparent url(blockactive_left.gif) top left no-repeat;}
+#blockmenu a:hover.right{background: transparent url(blockactive_right.gif) top right no-repeat;}
+
+#blockmenu a#current{background: transparent url(blockactive_right.gif) top right no-repeat;}
+
+
+
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+color: white;
+background: transparent url(blockactive.gif) center center repeat-x;
+}
+/**/
+.bodytextbold{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333;
+	font-weight:bold;
+}
+
+.NewNewbodytextbold{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+}
+.liNewNewbodytextbold{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333;
+}
+
+.bodytextboldNew
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+}
+
+.temp
+{
+background-color: #DAE8EC;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border: 2px solid #B8CB99;
+padding: 10px;
+}
+
+.titletextblack{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:Black;
+}
+
+.titletextRed{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:Red;
+}
