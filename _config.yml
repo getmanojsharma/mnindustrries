@@ -1,0 +1,5 @@
+# GitHub Pages Jekyll configuration
+# This makes sure your site builds with Jekyll
+# and lets you use clean URLs with "permalink"
+permalink: pretty
+markdown: kramdown
